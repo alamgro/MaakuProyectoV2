@@ -20,7 +20,7 @@ public class PuertaLlave : MonoBehaviour
     private Text dialogo;
     public string[] dialogosTexto;
     public GameObject boton;
-    int cuentaDialogos = 1;
+   
 
     // Start is called before the first frame update
     void Start()

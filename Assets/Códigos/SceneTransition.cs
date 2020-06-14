@@ -8,14 +8,14 @@ public class SceneTransition : MonoBehaviour
 {
     public Animator transitionAnim;
     public Text dialogo;
-    public AudioClip audioSFX;
+    
     float timer = 0.0f;
     bool firstCicle = false;
     int count = 0;
     void Start()
     {
         dialogo.text = "-The birds are singing… it’s late.";
-        SoundScript.playSound(audioSFX);
+      
     }
 
     void Update()
