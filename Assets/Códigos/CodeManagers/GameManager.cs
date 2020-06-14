@@ -67,5 +67,6 @@ public class GameManager : MonoBehaviour
         {
             estaMoviendose = false; //Si ninguna condición se cumple, la variable toma valor de FALSE
         }
+        print(secuenciaActual);
     }
 }

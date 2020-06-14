@@ -23,6 +23,7 @@ public class InteraccionObjeto : MonoBehaviour
 	void Start()
 	{
 		cuentaDialogos = (esParaAbrir || itemQueLoDesbloquea == null) ? 0 : 2; //Controla si el contador de diálogos inicia en 1 o 0 dependiendo de si la variable "esParaAbrir" es true
+		cuentaDialogos = (esParaAbrir && itemQueLoDesbloquea != null) ? 2 : cuentaDialogos; //En caso de que se pueda abrir y  necesite un objeto para hacerlo
 		inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 		dialogo = GameObject.FindGameObjectWithTag("Dialog").GetComponent<Text>();
 	}
@@ -38,11 +39,11 @@ public class InteraccionObjeto : MonoBehaviour
 	}
 	void Update()
 	{
-		if (isTriggered && numDeSecuenciaObj <= GameManager.secuenciaActual && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom)
+		if (isTriggered && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom)
 		{
 			if(itemQueLoDesbloquea != null)
 				UsarItemEnObjeto();
-			else if (esParaAbrir)
+			else if (esParaAbrir && numDeSecuenciaObj <= GameManager.secuenciaActual)
 				ObjetoQueSeAbre();
 			else
 				ObjetoQueNoSeAbre();
@@ -92,7 +93,7 @@ public class InteraccionObjeto : MonoBehaviour
 	}
 	void ObjetoQueNoSeAbre() //Cuando el objeto del escenario NO tiene una interacción para abrirlo (Dropea item la primer interacción)
 	{
-		if (Input.GetKeyDown(KeyCode.E) && !inventory.isFull) 
+		if (Input.GetKeyDown(KeyCode.E) && !inventory.isFull && numDeSecuenciaObj <= GameManager.secuenciaActual) 
 		{
 			if (cuentaDialogos < dialogosTexto.Length)
 			{
@@ -119,13 +120,15 @@ public class InteraccionObjeto : MonoBehaviour
 	{
 		if(Input.GetKeyDown(KeyCode.E))
 		{
-			if (itemQueRecoge.GetComponent<Image>().sprite != itemQueLoDesbloquea) //Cuando no tiene el item correcto en inventario.
+			if (itemQueRecoge.GetComponent<Image>().sprite != itemQueLoDesbloquea && cuentaDialogos < dialogosTexto.Length) //Cuando no tiene el item correcto en inventario.
 			{
 				dialogo.text = dialogosTexto[0]; //El diálogo en ínidice 0 siempre es el que muestra cuando no tienes el item correcto en inventario.
 			}
 			//REVISAR AQUÍ SI FALLA ALGO DE LOS DIÁLOGOS (dialogosTexto.Length -1)
 			else if (cuentaDialogos < dialogosTexto.Length) //Cuando tiene el item correcto pero tiene que presionar E para que se acaben los diálogos.
 			{
+				if(esParaAbrir) //Si tiene un sprite para abrir, entonces usarlo
+					this.gameObject.GetComponent<SpriteRenderer>().sprite = objetoSprites[0];
 				inventory.enabled = false; //Desactiva inventario para que no pueda hacer zoom al objeto del inventario mientras ve los diálogos
 				MostrarDialogos();
 			}

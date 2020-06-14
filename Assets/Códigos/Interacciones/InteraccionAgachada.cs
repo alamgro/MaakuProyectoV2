@@ -5,24 +5,28 @@ using UnityEngine.UI;
 
 public class InteraccionAgachada : MonoBehaviour
 {
-	private Inventory inventory;
-	private Text dialogo;
 	int countItem = 0, cuentaDialogos = 0;
+	public int numDeSecuenciaObj; //Guarda un número que define su lugar dentro de la historia, así solo podrá interactuar con ese item cuando 
 	public string[] dialogosTexto;
 	public GameObject boton; //Boton de PressE
 	public GameObject itemQueRecoge; //Prefab que cambia el item que recoge
 	public Sprite[] itemSprites; //Array de sprites de los items que puede recoger en este objeto
 	public AudioClip audioSFX;
 	private bool isTriggered = false;
+	private Inventory inventory;
+	private Text dialogo;
 	private void Start()
 	{
 		
 		inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 		dialogo = GameObject.FindGameObjectWithTag("Dialog").GetComponent<Text>();
 	}
-	private void Update()
+	void Update()
 	{
-		ObjetoAgachada();
+		if (PlayerControl.agachada)
+			ObjetoAgachada();
+		else if(Input.GetKeyDown(KeyCode.E) && isTriggered)
+			dialogo.text = "Uh! I think there is something under the coach.";
 	}
 	void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -34,7 +38,7 @@ public class InteraccionAgachada : MonoBehaviour
 	}
 	void ObjetoAgachada()
     {
-		if (Input.GetKeyDown(KeyCode.E) && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom && !inventory.isFull && PlayerControl.agachada && isTriggered)
+		if (Input.GetKeyDown(KeyCode.E) && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom && !inventory.isFull && numDeSecuenciaObj <= GameManager.secuenciaActual && isTriggered)
 		{
 			if (cuentaDialogos < dialogosTexto.Length)
 			{
