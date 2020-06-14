@@ -8,14 +8,14 @@ public class DesbloqueoCaja : MonoBehaviour
 	public GameObject tv;
 	public GameObject UICajaDial;
 	public GameObject DialCheck; //Objeto que tiene el script para checar que el código sea correcto
-    public int numDeSecuenciaObj;
-    public GameObject boton; //Boton de PressE
-    public GameObject itemQueRecoge; //Prefab que cambia el item que recoge
-    public Sprite itemQueLoDesbloquea; //Es el item que Maaku necesita tener en el inventario para poder interactuar con este objeto (No siempre aplica)
+	public int numDeSecuenciaObj;
+	public GameObject boton; //Boton de PressE
+	public GameObject itemQueRecoge; //Prefab que cambia el item que recoge
+	public Sprite itemQueLoDesbloquea; //Es el item que Maaku necesita tener en el inventario para poder interactuar con este objeto (No siempre aplica)
 	public Sprite[] objetoSprites; //Array de sprites para los muebles y objetos de escenario
 	public Sprite[] itemSprites; //Array de sprites de los items que puede recoger en este objeto
-    public string[] dialogosTexto;
-    public AudioClip audioSFX;
+	public string[] dialogosTexto;
+	public AudioClip[] audioSFX;//0 cuando esta cerrado y 1 cunado esta abierto 
 	public static bool laCajaFueAbieta = false;
 	private bool isCompleted = false;
     int countItem = 0, cuentaDialogos = 2;
@@ -69,6 +69,7 @@ public class DesbloqueoCaja : MonoBehaviour
         {
             if (!inventory.isFull)
             {
+				SoundScript.playSound(audioSFX[1]);
 				dialogo.text = dialogosTexto[0];
 			}
 			else if (Inventory.itemActual.GetComponent<Image>().sprite != itemQueLoDesbloquea)
@@ -93,6 +94,7 @@ public class DesbloqueoCaja : MonoBehaviour
 		{
 			MostrarDialogos();
 		}
+		SoundScript.playSound(audioSFX[0]);
 		SalirDeLaInteraccion();
 		GameManager.secuenciaActual++; //Avanza al secuencia del juego
 		Destroy(Inventory.itemActual); //Destruye el objeto que tiene en el inventario (collar)

@@ -142,6 +142,7 @@ public class InteraccionObjeto : MonoBehaviour
 				boton.SetActive(false);
 				GameManager.secuenciaActual++;
 				Destroy(Inventory.itemActual);
+				SoundScript.playSound(audioSFX);
 				PickItem();
 			}
 			else

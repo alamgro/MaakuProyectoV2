@@ -46,6 +46,7 @@ public class InteraccionAgachada : MonoBehaviour
 			}
 			else
 			{
+				SoundScript.playSound(audioSFX);
 				PlayerControl.agachada = false;
 				PickItem();
 				boton.SetActive(false); //Quitar el botón de la pantalla
@@ -72,6 +73,7 @@ public class InteraccionAgachada : MonoBehaviour
 		GameManager.ResetTimer(); //Reinicia la cuenta de tiempo para borrar el tiempo 7 segundos después.
 
 		dialogo.text = dialogosTexto[cuentaDialogos];
+
 		cuentaDialogos++;
 	}
 }
