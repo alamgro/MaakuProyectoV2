@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_outfit2_sombrero
+  m_Controller: {fileID: 9100000, guid: 3830b1ac634993641b63e5b65452e7c9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 175be312dbfc69d469882b275d6e63be, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1c68bffc2b036a44a9f4113910d11fa8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9f657b87a01311843896ca09c6837f88, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b35260b1c4965da46b185f1288ddecf0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b7f92462b8531d041a4fe04365059ca6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 412cf7fc36d7564409b9377f8ca700eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6f4f45895d1905b4a84bc9972e449199, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2c9ed2429826812429e2293b49993a40, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4f06919e3c72174aa87c6a591e8a92c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8bb607acac867d64fb74e0b721340528, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f7bf213e23daeb9468592237b2a4e836, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 869c1d297d5f39647b316c0bb6c2ce1d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e9fee95db5c7b04fa21e5bffc8979bf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 150d048e5d0493a4b9d33b0023c521a1, type: 2}

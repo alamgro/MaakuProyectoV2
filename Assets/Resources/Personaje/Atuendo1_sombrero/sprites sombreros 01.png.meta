@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: a1216aa10d7757149b870a206c680b20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5627610837334988161
+    second: sprites sombreros 01_0
+  - first:
+      213: 1092794458434295147
+    second: sprites sombreros 01_1
+  - first:
+      213: 2391588348905032921
+    second: sprites sombreros 01_2
+  - first:
+      213: 8059624466707552667
+    second: sprites sombreros 01_3
+  - first:
+      213: 6308350314431793746
+    second: sprites sombreros 01_4
+  - first:
+      213: 5596118722125042580
+    second: sprites sombreros 01_5
+  - first:
+      213: 4631707118982447484
+    second: sprites sombreros 01_6
+  - first:
+      213: -5734521482401809145
+    second: sprites sombreros 01_7
+  - first:
+      213: 2900664625109742689
+    second: sprites sombreros 01_8
+  - first:
+      213: -2630806596089756122
+    second: sprites sombreros 01_9
+  - first:
+      213: 9196073896611558297
+    second: sprites sombreros 01_10
+  - first:
+      213: -4421789001859323555
+    second: sprites sombreros 01_11
+  - first:
+      213: 7915052587151943022
+    second: sprites sombreros 01_12
+  - first:
+      213: 4409980677035063892
+    second: sprites sombreros 01_13
+  - first:
+      213: -6938571258322032278
+    second: sprites sombreros 01_14
+  - first:
+      213: -4475713054248986813
+    second: sprites sombreros 01_15
+  - first:
+      213: 8701053961239772395
+    second: sprites sombreros 01_16
+  - first:
+      213: 8602244168655095583
+    second: sprites sombreros 01_17
+  - first:
+      213: 976783111207088201
+    second: sprites sombreros 01_18
+  - first:
+      213: -2822584697477525625
+    second: sprites sombreros 01_19
+  - first:
+      213: 963577365334548027
+    second: sprites sombreros 01_20
+  - first:
+      213: 7500856341275066525
+    second: sprites sombreros 01_21
+  - first:
+      213: -2928204825327626711
+    second: sprites sombreros 01_22
+  - first:
+      213: -6989547529315682264
+    second: sprites sombreros 01_23
+  - first:
+      213: -2730620007195904938
+    second: sprites sombreros 01_24
+  - first:
+      213: 4290618517575703058
+    second: sprites sombreros 01_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites sombreros 01_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 41
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1859d7d7d3a491e40800000000000000
+      internalID: 5627610837334988161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 96
+        width: 41
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65dd7325c26a2f00800000000000000
+      internalID: 1092794458434295147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 96
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc8271aee0a03120800000000000000
+      internalID: 2391588348905032921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 96
+        width: 40
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99962130c989df60800000000000000
+      internalID: 8059624466707552667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 96
+        width: 40
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4e6a1033cb8750800000000000000
+      internalID: 6308350314431793746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 96
+        width: 42
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4931d29045869ad40800000000000000
+      internalID: 5596118722125042580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 96
+        width: 42
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71c89ab511274040800000000000000
+      internalID: 4631707118982447484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 40
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df7943813ea60b0800000000000000
+      internalID: -5734521482401809145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 96
+        width: 42
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1643530bb1b314820800000000000000
+      internalID: 2900664625109742689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 96
+        width: 41
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c057e65f7d7bd0800000000000000
+      internalID: -2630806596089756122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 96
+        width: 40
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99336cf6c740f9f70800000000000000
+      internalID: 9196073896611558297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_11
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 96
+        width: 40
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5922789456a2a2c0800000000000000
+      internalID: -4421789001859323555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 37
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e656abb646ae7dd60800000000000000
+      internalID: 7915052587151943022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 37
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45af2098f06633d30800000000000000
+      internalID: 4409980677035063892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 39
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69eaf2e33e35bf90800000000000000
+      internalID: -6938571258322032278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_15
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 37
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34719e4c0b213e1c0800000000000000
+      internalID: -4475713054248986813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 41
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb3334a7a50c870800000000000000
+      internalID: 8701053961239772395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_17
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1
+        width: 39
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17ccd7ae7f416770800000000000000
+      internalID: 8602244168655095583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 37
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940791e701b3e8d00800000000000000
+      internalID: 976783111207088201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f066e1c2a24d8d0800000000000000
+      internalID: -2822584697477525625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_20
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2
+        width: 37
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e5f5e22805f5d00800000000000000
+      internalID: 963577365334548027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 39
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90cfe4e915681860800000000000000
+      internalID: 7500856341275066525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_22
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1
+        width: 41
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92613c4c93dec57d0800000000000000
+      internalID: -2928204825327626711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1
+        width: 40
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828fd66ed83200f90800000000000000
+      internalID: -6989547529315682264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_24
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1
+        width: 40
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65473862293ea1ad0800000000000000
+      internalID: -2730620007195904938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites sombreros 01_25
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1
+        width: 37
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a10de1fc65b8b30800000000000000
+      internalID: 4290618517575703058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

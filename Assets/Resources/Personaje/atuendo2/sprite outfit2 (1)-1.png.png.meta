@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 5bd6110adaddec14caceec794b5b3d21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4056393544157883713
+    second: sprite outfit2 (1)-1.png_0
+  - first:
+      213: -7714726871349043693
+    second: sprite outfit2 (1)-1.png_1
+  - first:
+      213: 2649482740226581837
+    second: sprite outfit2 (1)-1.png_2
+  - first:
+      213: -6109162091602691606
+    second: sprite outfit2 (1)-1.png_3
+  - first:
+      213: -7701745741970714078
+    second: sprite outfit2 (1)-1.png_4
+  - first:
+      213: -3605273090341849846
+    second: sprite outfit2 (1)-1.png_5
+  - first:
+      213: 5970459137258242169
+    second: sprite outfit2 (1)-1.png_6
+  - first:
+      213: 4245235896465737640
+    second: sprite outfit2 (1)-1.png_7
+  - first:
+      213: 2355679424224130001
+    second: sprite outfit2 (1)-1.png_8
+  - first:
+      213: 8845172984734174237
+    second: sprite outfit2 (1)-1.png_9
+  - first:
+      213: -1909401848987074960
+    second: sprite outfit2 (1)-1.png_10
+  - first:
+      213: 2023016591277192975
+    second: sprite outfit2 (1)-1.png_11
+  - first:
+      213: 520909341840009352
+    second: sprite outfit2 (1)-1.png_12
+  - first:
+      213: -6194579466048321764
+    second: sprite outfit2 (1)-1.png_13
+  - first:
+      213: 341256902831746040
+    second: sprite outfit2 (1)-1.png_14
+  - first:
+      213: 7943897673348275742
+    second: sprite outfit2 (1)-1.png_15
+  - first:
+      213: -8002832519048735536
+    second: sprite outfit2 (1)-1.png_16
+  - first:
+      213: -4581733379478151435
+    second: sprite outfit2 (1)-1.png_17
+  - first:
+      213: -1891113976068985620
+    second: sprite outfit2 (1)-1.png_18
+  - first:
+      213: 6695063880393288901
+    second: sprite outfit2 (1)-1.png_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 87
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14de7bccf643b4830800000000000000
+      internalID: 4056393544157883713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 87
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e541ee8c8cfe490800000000000000
+      internalID: -7714726871349043693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 87
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ebb1c38ad4c420800000000000000
+      internalID: 2649482740226581837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 87
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae93db60275e73ba0800000000000000
+      internalID: -6109162091602691606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 87
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2225573ad07ed1590800000000000000
+      internalID: -7701745741970714078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 87
+        width: 35
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0536e3d93f77fdc0800000000000000
+      internalID: -3605273090341849846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 86
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9704346d3f45bd250800000000000000
+      internalID: 5970459137258242169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 87
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7c39c3e8b1aea30800000000000000
+      internalID: 4245235896465737640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 86
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3739594fd01b020800000000000000
+      internalID: 2355679424224130001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 87
+        width: 36
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c46f347fd50ca70800000000000000
+      internalID: 8845172984734174237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_10
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 87
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eb6a182217085e0800000000000000
+      internalID: -1909401848987074960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 87
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f077cc11fd2331c10800000000000000
+      internalID: 2023016591277192975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8886e885944aa3700800000000000000
+      internalID: 520909341840009352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 37
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c241cbce680aa0800000000000000
+      internalID: -6194579466048321764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 39
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbaf6658536cb400800000000000000
+      internalID: 341256902831746040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 36
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ed9f768d46e3e60800000000000000
+      internalID: 7943897673348275742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 35
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d729893a30f090800000000000000
+      internalID: -8002832519048735536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 34
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe97a434c96a60c0800000000000000
+      internalID: -4581733379478151435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceca1aabbd961c5e0800000000000000
+      internalID: -1891113976068985620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite outfit2 (1)-1.png_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce3639025a9ec50800000000000000
+      internalID: 6695063880393288901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

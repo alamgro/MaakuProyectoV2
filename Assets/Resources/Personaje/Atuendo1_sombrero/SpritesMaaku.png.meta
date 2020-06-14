@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: 2e092cea73e423642a96fb192871129c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6987449994117899991
+    second: caminar 1
+  - first:
+      213: 3877682578444066161
+    second: caminar 2
+  - first:
+      213: -797132095295667919
+    second: caminar 3
+  - first:
+      213: 9138680992456298697
+    second: caminar 4
+  - first:
+      213: 4580467008642318063
+    second: caminar 5
+  - first:
+      213: 8110715481174655968
+    second: caminar 6
+  - first:
+      213: -766614480338474566
+    second: caminar 7
+  - first:
+      213: 2300706306438068117
+    second: caminar 8
+  - first:
+      213: 7057966272130278106
+    second: caminar 9
+  - first:
+      213: 5698154232513522542
+    second: caminar 10
+  - first:
+      213: 7692135294293663105
+    second: caminar 11
+  - first:
+      213: 8902087032847148318
+    second: caminar 12
+  - first:
+      213: 26568291293938164
+    second: SpritesMaaku_12
+  - first:
+      213: -7635742322962993168
+    second: SpritesMaaku_13
+  - first:
+      213: -1529195267532711916
+    second: SpritesMaaku_14
+  - first:
+      213: 7715119148120049711
+    second: SpritesMaaku_15
+  - first:
+      213: -5101937685391343503
+    second: SpritesMaaku_16
+  - first:
+      213: -3768186292566661156
+    second: SpritesMaaku_17
+  - first:
+      213: 3277202469713978442
+    second: SpritesMaaku_18
+  - first:
+      213: -5451489802063153662
+    second: SpritesMaaku_19
+  - first:
+      213: 8386098736993283832
+    second: SpritesMaaku_20
+  - first:
+      213: 37049939587858058
+    second: SpritesMaaku_21
+  - first:
+      213: -5039621452330976642
+    second: SpritesMaaku_22
+  - first:
+      213: 1309383178276142581
+    second: SpritesMaaku_23
+  - first:
+      213: -3285964962887598128
+    second: SpritesMaaku_24
+  - first:
+      213: -4039075363296842681
+    second: SpritesMaaku_25
+  - first:
+      213: 8144695130297668774
+    second: SpritesMaaku_26
+  - first:
+      213: -85727717617933792
+    second: SpritesMaaku_27
+  - first:
+      213: -2318900554349172045
+    second: SpritesMaaku_28
+  - first:
+      213: -3311493598351996922
+    second: SpritesMaaku_29
+  - first:
+      213: 6453337478985044066
+    second: quieta 1
+  - first:
+      213: -6565059667015637554
+    second: quieta 2
+  - first:
+      213: -4971310976448004647
+    second: quieta 3
+  - first:
+      213: -6029470809046941845
+    second: SpritesMaaku_33
+  - first:
+      213: -5328688945650450046
+    second: SpritesMaaku_34
+  - first:
+      213: -6572354156423112923
+    second: SpritesMaaku_35
+  - first:
+      213: 4982594011219427762
+    second: SpritesMaaku_36
+  - first:
+      213: 3409624960372003104
+    second: SpritesMaaku_37
+  - first:
+      213: 7694361378613789041
+    second: SpritesMaaku_38
+  - first:
+      213: -6234512415285663628
+    second: SpritesMaaku_39
+  - first:
+      213: 7729731875538098803
+    second: SpritesMaaku_40
+  - first:
+      213: 4793592751897307182
+    second: SpritesMaaku_41
+  - first:
+      213: -381942182329117289
+    second: SpritesMaaku_42
+  - first:
+      213: -7996157240481158848
+    second: SpritesMaaku_43
+  - first:
+      213: -5956958750031950085
+    second: SpritesMaaku_44
+  - first:
+      213: -8472675081622746179
+    second: caminar 1
+  - first:
+      213: 6702929326885377515
+    second: caminar 2
+  - first:
+      213: 4897626538748351044
+    second: caminar 3
+  - first:
+      213: -1840077703036564021
+    second: caminar 4
+  - first:
+      213: 3143783008594495912
+    second: caminar 5
+  - first:
+      213: 4926765814433684190
+    second: caminar 6
+  - first:
+      213: -1147790492685818508
+    second: caminar 7
+  - first:
+      213: 2580745637405023811
+    second: caminar 8
+  - first:
+      213: 8958526838732443357
+    second: caminar 9
+  - first:
+      213: -365472646534765344
+    second: caminar 10
+  - first:
+      213: -7253045582968592090
+    second: caminar 11
+  - first:
+      213: -6361539921692052390
+    second: caminar 12
+  - first:
+      213: -7170769833744598317
+    second: SpritesMaaku_12
+  - first:
+      213: 8162535127020405894
+    second: SpritesMaaku_13
+  - first:
+      213: -4465217796840749973
+    second: SpritesMaaku_14
+  - first:
+      213: 3156938823187722453
+    second: SpritesMaaku_15
+  - first:
+      213: -326785445705278359
+    second: SpritesMaaku_16
+  - first:
+      213: -8082825418650727788
+    second: SpritesMaaku_17
+  - first:
+      213: 4644258334031130027
+    second: SpritesMaaku_18
+  - first:
+      213: 8698570616994063327
+    second: SpritesMaaku_19
+  - first:
+      213: 5799984567734504749
+    second: SpritesMaaku_20
+  - first:
+      213: -1706339619223051398
+    second: SpritesMaaku_21
+  - first:
+      213: 4936105386662048477
+    second: SpritesMaaku_22
+  - first:
+      213: 7028571406960263540
+    second: SpritesMaaku_23
+  - first:
+      213: 3178315303969997063
+    second: SpritesMaaku_24
+  - first:
+      213: 170057711485044001
+    second: SpritesMaaku_25
+  - first:
+      213: 7351994268924588133
+    second: SpritesMaaku_26
+  - first:
+      213: -6811244745209609984
+    second: SpritesMaaku_27
+  - first:
+      213: -7307232322269727644
+    second: SpritesMaaku_28
+  - first:
+      213: 1034908136530998795
+    second: SpritesMaaku_29
+  - first:
+      213: 7821437807107351830
+    second: quieta 1
+  - first:
+      213: 2671626380802278351
+    second: quieta 2
+  - first:
+      213: -8161397148487484447
+    second: quieta 3
+  - first:
+      213: 108705280050633045
+    second: SpritesMaaku_33
+  - first:
+      213: -1665710358427619925
+    second: SpritesMaaku_34
+  - first:
+      213: -3990019125887076591
+    second: SpritesMaaku_35
+  - first:
+      213: 7682355022902149423
+    second: SpritesMaaku_36
+  - first:
+      213: 7126727015514892834
+    second: SpritesMaaku_37
+  - first:
+      213: 4385249468072001536
+    second: SpritesMaaku_38
+  - first:
+      213: -5256683856524981921
+    second: SpritesMaaku_39
+  - first:
+      213: 7132594226194843287
+    second: SpritesMaaku_40
+  - first:
+      213: -416472325528745362
+    second: SpritesMaaku_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caminar 1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb829647e20b6a80800000000000000
+      internalID: -8472675081622746179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 271
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51d8b85b6950d50800000000000000
+      internalID: 6702929326885377515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 271
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4421f94636dd7f340800000000000000
+      internalID: 4897626538748351044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 271
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd8367041bb676e0800000000000000
+      internalID: -1840077703036564021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 270
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a90f266df5f0ab20800000000000000
+      internalID: 3143783008594495912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 270
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda9bd4b7636f5440800000000000000
+      internalID: 4926765814433684190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 270
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47524eec0aa3210f0800000000000000
+      internalID: -1147790492685818508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 270
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e5a2ddb76a0d320800000000000000
+      internalID: 2580745637405023811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 270
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde437d02b4135c70800000000000000
+      internalID: 8958526838732443357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 270
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e46c2870949deaf0800000000000000
+      internalID: -365472646534765344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 271
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629e0777871085b90800000000000000
+      internalID: -7253045582968592090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caminar 12
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 270
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a543417652547b7a0800000000000000
+      internalID: -6361539921692052390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 186
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daf09d14de4c7c90800000000000000
+      internalID: -7170769833744598317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 187
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68403b87376274170800000000000000
+      internalID: 8162535127020405894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 186
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b640e8e421c5802c0800000000000000
+      internalID: -4465217796840749973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 186
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d07ebd2223bfcb20800000000000000
+      internalID: 3156938823187722453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 186
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c18f65e56077bf0800000000000000
+      internalID: -326785445705278359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 186
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a43db3b1904df80800000000000000
+      internalID: -8082825418650727788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 186
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bada2153958b37040800000000000000
+      internalID: 4644258334031130027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 186
+        width: 36
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3e49f93e787b870800000000000000
+      internalID: 8698570616994063327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_20
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 187
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d00961c3fad7050800000000000000
+      internalID: 5799984567734504749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_21
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 187
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73e80a282dd158e0800000000000000
+      internalID: -1706339619223051398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 187
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd232e152b1908440800000000000000
+      internalID: 4936105386662048477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 187
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4718556a4708a8160800000000000000
+      internalID: 7028571406960263540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 102
+        width: 36
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701c155fde4ab1c20800000000000000
+      internalID: 3178315303969997063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 101
+        width: 37
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125c16c669a2c5200800000000000000
+      internalID: 170057711485044001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 101
+        width: 39
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56035f5c5d7870660800000000000000
+      internalID: 7351994268924588133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 101
+        width: 36
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0010983edf89971a0800000000000000
+      internalID: -6811244745209609984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 101
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4643cd31bee779a90800000000000000
+      internalID: -7307232322269727644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_29
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 102
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06771d877bbc5e00800000000000000
+      internalID: 1034908136530998795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quieta 1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 102
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615a17dee345b8c60800000000000000
+      internalID: 7821437807107351830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quieta 2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 102
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc34848d906831520800000000000000
+      internalID: 2671626380802278351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quieta 3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 102
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb748dc884ecbe80800000000000000
+      internalID: -8161397148487484447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 102
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55990a250e2328100800000000000000
+      internalID: 108705280050633045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 101
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badab3b114532e8e0800000000000000
+      internalID: -1665710358427619925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1177c7abeba90a8c0800000000000000
+      internalID: -3990019125887076591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f214582c0353d9a60800000000000000
+      internalID: 7682355022902149423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_37
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 18
+        width: 37
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ae1fa267837e260800000000000000
+      internalID: 7126727015514892834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 37
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00007eb38298bdc30800000000000000
+      internalID: 4385249468072001536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 18
+        width: 37
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f594c4332e18c07b0800000000000000
+      internalID: -5256683856524981921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_40
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 18
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796885b98a01cf260800000000000000
+      internalID: 7132594226194843287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesMaaku_41
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 17
+        width: 35
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a041260a4683af0800000000000000
+      internalID: -416472325528745362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 79ae3142300fcbd4a9ac903560c1b400
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 7249536256045108550, guid: 27b0ee432444f304ebbc0ee4769587d6,
+      type: 3}
+  - Player_outfit1_sombrero: {fileID: 22100000, guid: 8e69447fb68c1334aaf511ccdd4f4a1d,
+      type: 2}
+  - Player_outfit1: {fileID: 22100000, guid: 35742c0c3961e0242913134e5561c156, type: 2}
+  - Player_outfit2: {fileID: 22100000, guid: ea9fe35c845665843927c66643fadac6, type: 2}
+  - Player_outfit2_sombrero: {fileID: 22100000, guid: 0c2c80042e5c02745b2148467e7f81b3,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
