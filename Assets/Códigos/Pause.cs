@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
     public static bool pausa= false;
     public GameObject pausaUI;
-    private Inventory inventory;
     private PlayerControl playerControl;
-     void Start()
+    public GameObject pantallaContoles;
+    void Start()
     {
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+      
         playerControl = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
+
     }
 
     void Update()
@@ -25,6 +27,9 @@ public class Pause : MonoBehaviour
                 Pause1();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            cerrarControles();
     }
 
     public void Resume()
@@ -47,6 +52,24 @@ public class Pause : MonoBehaviour
     {
         print("*Salir del juego*");
         Application.Quit();
+    }
+
+
+    public void abrirControles()
+    {
+
+
+        pantallaContoles.SetActive(true);
+
+
+    }
+
+    public void cerrarControles()
+    {
+
+        pantallaContoles.SetActive(false);
+
+
     }
 
 }

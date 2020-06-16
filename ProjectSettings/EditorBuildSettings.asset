@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Patio.unity
     guid: 40c71ff8203d2a94eb99ebf04fade2f7
   - enabled: 1
-    path: "Assets/Scenes/Cr\xE9ditos.unity"
+    path: Assets/Scenes/Creditos.unity
     guid: 61a821bfac8dcff4bb50ae9233db1fd1
   - enabled: 1
     path: Assets/Scenes/Finales/FinalPadres.unity
