@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class PantallaInicial : MonoBehaviour
 {
     public GameObject pantallaContoles;
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -26,23 +25,17 @@ public class PantallaInicial : MonoBehaviour
 
     public void QuitarJuego()
     {
-        print("Adio popo");
         Application.Quit();
     }
 
-    public void abrirControles() {
-
-
+    public void abrirControles() 
+    {
         pantallaContoles.SetActive(true);
-        
-    
     }
 
-    public void cerrarControles() {
-
+    public void cerrarControles()
+    {
         pantallaContoles.SetActive(false);
-
-
     }
 
 }

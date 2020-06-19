@@ -21,6 +21,7 @@ public class InteraccionAgachada : MonoBehaviour
 		inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 		dialogo = GameObject.FindGameObjectWithTag("Dialog").GetComponent<Text>();
 	}
+
 	void Update()
 	{
 		if (PlayerControl.agachada)
@@ -28,7 +29,8 @@ public class InteraccionAgachada : MonoBehaviour
 		else if(Input.GetKeyDown(KeyCode.E) && isTriggered)
 			dialogo.text = "Uh! I think there is something under the coach.";
 	}
-	void OnTriggerEnter2D(Collider2D collision)
+
+	void OnTriggerStay2D(Collider2D collision)
 	{
 		isTriggered = true;
 	}
@@ -36,6 +38,7 @@ public class InteraccionAgachada : MonoBehaviour
 	{
 		isTriggered = false;
 	}
+
 	void ObjetoAgachada()
     {
 		if (Input.GetKeyDown(KeyCode.E) && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom && !inventory.isFull && numDeSecuenciaObj <= GameManager.secuenciaActual && isTriggered)
@@ -51,7 +54,6 @@ public class InteraccionAgachada : MonoBehaviour
 				PickItem();
 				boton.SetActive(false); //Quitar el botón de la pantalla
 				GameManager.SetInteraccionDesactivada();
-				GameManager.secuenciaActual++;
 				Destroy(this.gameObject);
 			}
 		}

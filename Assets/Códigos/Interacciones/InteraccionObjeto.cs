@@ -28,7 +28,7 @@ public class InteraccionObjeto : MonoBehaviour
 		dialogo = GameObject.FindGameObjectWithTag("Dialog").GetComponent<Text>();
 	}
 
-	void OnTriggerEnter2D(Collider2D collision)
+	void OnTriggerStay2D(Collider2D collision)
 	{
 		isTriggered = true;
 	}
@@ -88,6 +88,10 @@ public class InteraccionObjeto : MonoBehaviour
 		{
 			GameManager.secuenciaActual++;
 			countItem++;
+		}
+		else if (Input.GetKeyDown(KeyCode.E) && countItem > itemSprites.Length) {
+			GameManager.ResetTimer(); //Reinicia la cuenta de tiempo para borrar el tiempo 7 segundos después.
+			dialogo.text = "Hm... There is nothing here!";
 		}
 
 	}

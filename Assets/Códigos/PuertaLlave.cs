@@ -20,24 +20,22 @@ public class PuertaLlave : MonoBehaviour
     private Text dialogo;
     public string[] dialogosTexto;
     public GameObject boton;
-   
 
-    // Start is called before the first frame update
     void Start()
     {
         dialogo = GameObject.FindGameObjectWithTag("Dialog").GetComponent<Text>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         isTriggered = true;
     }
-
+        
     void OnTriggerExit2D(Collider2D collision)
     {
         isTriggered = false;
     }
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && isTriggered && !ZoomItem.itemEstaEnZoom && !GameManager.estaMoviendose) {
@@ -49,12 +47,10 @@ public class PuertaLlave : MonoBehaviour
                 camara.GetComponent<CinemachineConfiner>().InvalidatePathCache();
                 player.transform.position = new Vector2(coordenadaX, coordenadaY);
                 SceneManager.LoadScene("FinalPadres");
-
             }
             else {
                 GameManager.ResetTimer(); //Reinicia la cuenta de tiempo para borrar el tiempo 7 segundos después.
                 dialogo.text = dialogosTexto[0];
-
             }
 
         }

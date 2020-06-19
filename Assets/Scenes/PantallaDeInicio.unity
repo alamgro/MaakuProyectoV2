@@ -219,8 +219,8 @@ RectTransform:
   - {fileID: 828674800}
   - {fileID: 1096082609}
   - {fileID: 1439666911}
-  - {fileID: 797625011}
   - {fileID: 1413609555}
+  - {fileID: 797625011}
   m_Father: {fileID: 2021004450}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -296,7 +296,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 685532321}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 828674802}
   - component: {fileID: 828674801}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Titulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -699,7 +699,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 685532321}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -809,7 +809,7 @@ GameObject:
   - component: {fileID: 1439666913}
   - component: {fileID: 1439666912}
   m_Layer: 5
-  m_Name: BotonYakult
+  m_Name: BotonControles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,7 +1052,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.507
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

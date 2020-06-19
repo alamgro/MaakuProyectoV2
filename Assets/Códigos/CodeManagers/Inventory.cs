@@ -19,7 +19,7 @@ public class Inventory : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1) && isFull && !ZoomItem.itemEstaEnZoom && !GameManager.estaInteractuando) //Soltar el item del inventaro
+        if (Input.GetKeyDown(KeyCode.Q) && isFull && !ZoomItem.itemEstaEnZoom && !GameManager.estaInteractuando && !Pause.pausa) //Soltar el item del inventaro
         {
             Instantiate(itemQueSuelta, new Vector3(this.transform.position.x, -2.6f, 0.0f), Quaternion.identity);
             Destroy(itemActual);

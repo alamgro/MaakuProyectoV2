@@ -20,7 +20,7 @@ public class Puerta : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         isTriggered = true;
     }
@@ -34,10 +34,11 @@ public class Puerta : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isTriggered && !ZoomItem.itemEstaEnZoom)
         {
-                SoundScript.playSound(audioSFX); //Reproduce sonido
-                camara.GetComponent<CinemachineConfiner>().m_BoundingShape2D = destino;
-                camara.GetComponent<CinemachineConfiner>().InvalidatePathCache();
-                player.transform.position = new Vector2(coordenadaX, coordenadaY);
+            print("Estoy entrando men");
+            SoundScript.playSound(audioSFX); //Reproduce sonido
+            camara.GetComponent<CinemachineConfiner>().m_BoundingShape2D = destino;
+            camara.GetComponent<CinemachineConfiner>().InvalidatePathCache();
+            player.transform.position = new Vector2(coordenadaX, coordenadaY);
         }
     }
 }

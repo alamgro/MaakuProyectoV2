@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public static float timerInteraccion = 0.0f;
     public static float tiempoSinMoverse = 0.0f;
     public static bool triggerBorrarTexto = false;
-    public static int secuenciaActual = 0; //Marca el progreso del juego
+    public static int secuenciaActual = 1; //Marca el progreso del juego
     public static bool estaMoviendose = false;
     public static bool estaInteractuando = false;
     public static string textoInventarioFull = "- I can't carry anything else!";
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
                 timer = 0.0f;
             }
         }
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || !playerControl.estaTocandoPiso)
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || !playerControl.estaTocandoPiso || Pause.pausa)
         {
             estaMoviendose = true; //Si cualquierad de estás condiciones se cumple, significa que Maaku se está moviendo
         }

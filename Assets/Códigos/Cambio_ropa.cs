@@ -18,7 +18,7 @@ public class Cambio_ropa : MonoBehaviour
             Cambiar_ropa();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         isTriggered = true;
     }
@@ -27,10 +27,10 @@ public class Cambio_ropa : MonoBehaviour
     {
         isTriggered = false;
     }
+
     public void Cambiar_ropa()
     {
         Contador++;
-       
         if (Contador == 4)
         {
             Contador = 0;
@@ -38,23 +38,15 @@ public class Cambio_ropa : MonoBehaviour
         }
         if (Contador == 1)
         {
-
             player.GetComponent<Animator>().runtimeAnimatorController = Player_outfit1_sombrero as RuntimeAnimatorController;
-
         }
         if (Contador == 2)
         {
-
             player.GetComponent<Animator>().runtimeAnimatorController = Player_outfit2 as RuntimeAnimatorController;
-
         }
         if (Contador == 3)
         {
-
             player.GetComponent<Animator>().runtimeAnimatorController = Player_outfit2_sombrero as RuntimeAnimatorController;
-
         }
-        
-
     }
 }

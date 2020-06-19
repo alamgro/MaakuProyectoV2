@@ -3,21 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class RecojerItem : MonoBehaviour
 {
     private bool isTriggered = false;
     private Inventory inventory;
     public GameObject itemQueRecoge;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             isTriggered = true;
         }
     }
-
 
     void OnTriggerExit2D(Collider2D collision)
     {
@@ -29,7 +27,7 @@ public class RecojerItem : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isTriggered == true && !inventory.isFull)
+        if (Input.GetKeyDown(KeyCode.E) && isTriggered == true && !inventory.isFull && !Pause.pausa)
         {
             PickItem();
         }

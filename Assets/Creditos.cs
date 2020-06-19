@@ -14,7 +14,7 @@ public class Creditos : MonoBehaviour
     }
     void Start()
     {
-        moveSpeed = 1.0f;
+        moveSpeed = 0.8f;
     }
 
     // Update is called once per frame

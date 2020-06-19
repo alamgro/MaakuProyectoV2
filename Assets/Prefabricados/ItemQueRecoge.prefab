@@ -64,8 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4587626453973581662, guid: d9ada4d9cd9bf0f4899d676f3bfdb6c1,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: b9e33b190af36a24d84c8090d0af4378, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -87,3 +86,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261f8f5f0bac2304a826f3b2c2414f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIRecuadroZoom: {fileID: 1993039230449209836, guid: ebc58ffdafe526a408787d2b059220f4,
+    type: 3}

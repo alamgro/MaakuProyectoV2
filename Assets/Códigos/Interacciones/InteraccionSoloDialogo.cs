@@ -11,16 +11,14 @@ public class InteraccionSoloDialogo : MonoBehaviour
     public GameObject boton; //Boton de PressE
     private bool isTriggered = false;
     private int count = 0;
-    private PlayerControl playerControl;
 
     void Start()
     {
-        playerControl = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
 		boton.SetActive(true);
         boton.transform.position = new Vector3(this.transform.position.x, 3.5f, 0);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         isTriggered = true;
     }
@@ -32,7 +30,7 @@ public class InteraccionSoloDialogo : MonoBehaviour
 
     void Update()
     {
-        if (isTriggered && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom)
+        if (Input.GetKeyDown(KeyCode.E) && isTriggered && !GameManager.estaMoviendose && !ZoomItem.itemEstaEnZoom)
         {
             Interactuar();
         }
@@ -40,19 +38,24 @@ public class InteraccionSoloDialogo : MonoBehaviour
 
     void Interactuar()
     {
-        if (Input.GetKeyDown(KeyCode.E) && count < textoDialogo.Length)
+        if (count < textoDialogo.Length-1)
         {
             GameManager.SetInteraccionActivada();
             GameManager.ResetTimer();
             UIDialogo.text = textoDialogo[count];
             count++;
         }
-        else if (count == textoDialogo.Length) //Cuenta para saber si ya ha leído todos los diálogos
+        else if (count == textoDialogo.Length-1) //Cuenta para saber si ya ha leído todos los diálogos
         {
             GameManager.SetInteraccionDesactivada();
             GameManager.secuenciaActual++;
             boton.SetActive(false);
             count++;
         }
+        else {
+            GameManager.ResetTimer();
+            UIDialogo.text = textoDialogo[2]; //Dialogo por defecto cuando ya terminó de leer los demás
+        }
+
     }
 }

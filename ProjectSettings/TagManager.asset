@@ -8,6 +8,7 @@ TagManager:
   - Dialog
   - Zoom
   - piso
+  - RecuadroZoom
   layers:
   - Default
   - TransparentFX
